@@ -65,8 +65,8 @@ close:
 	
 }
 
-int main(char **argv, int argc) {
+int main(int argc, char **argv) {
 
-	run("tst");
+	run(argv[1]);
 	return 0;
 }
